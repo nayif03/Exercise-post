@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+main{
+    background: gray;
+    width: 70%;
+    margin: 10% auto;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+
+[class*=-page]{
+    width: 30%;
+    padding: 0.5em;
+}
+.first-page{
+    color:rgba(0, 13, 128, 0.281)  ;
+    background-color: azure;
+    z-index: 1;
+    
+    
+}
+.second-page{
+    background-color: rgb(236, 236, 147);
+    color: rgba(255, 68, 0, 0.349);
+    z-index: 2;
+    margin-left: -3em;
+    margin-bottom: 4em;
+    margin-top: -4em;
+    border-style: hidden;
+    box-shadow: -30px -20px 40px   rgba(8, 8, 8, 0.103);
+}
+h6.sub::before {
+    content: "";
+    display: block;
+    position: relative;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    float: left;
+    background-color:rgba(0, 13, 128, 0.349) ;
+    margin-right: 0.5em;
+}
+h6.sub1::before {
+    content: "";
+    display: block;
+    position: relative;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    float: left;
+    background-color:rgba(255, 68, 0, 0.288) ;
+    margin-right: 0.5em;
+}
+.floating::before{
+    content: "";
+    display: block;
+    position: relative;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 10px;
+    height: 5px;
+    float: left;
+    background-color:rgba(0, 13, 128, 0.349) ;
+    margin-top: -0.8em;
+}
+.floating1::before{
+    content: "";
+    display: block;
+    position: relative;
+    width: 10px;
+    height: 5px;
+    background-color: gold;
+    border-top-left-radius: 5px;  
+    border-top-right-radius: 5px; 
+    float: left;
+    background-color:rgba(255, 68, 0, 0.301) ;
+    margin-top: -0.8em;
+}
+header{
+    margin-bottom: 80%;
+}
+.floating{
+    margin-top: 0.5em;
+    border-top: 1px solid rgba(0, 13, 128, 0.253);
+    padding-top: 0.5em;
+}
+.floating1{
+    border-top: 1px solid rgba(255, 68, 0, 0.301);
+    padding-top: 0.5em;
+    margin-top: 0.5em;
+}
+
+.timeline{
+    float: right;
+}
+.timeline1{
+    float: left;
+}
+.text{
+    clear: both;
+    margin-top: 2em;
+    font-size: large;
+}
+footer{
+    margin-top: 2em;
+    padding-bottom: 1em;
+    font-size: smaller;
+}
+span{
+    font-size: x-small;
+    
+}
