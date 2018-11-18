@@ -108,12 +108,13 @@ header{
     margin-top: 2em;
     font-size: large;
 }
+
+span{
+    font-size: x-small;
+    
+}
 footer{
     margin-top: 2em;
     padding-bottom: 1em;
     font-size: smaller;
-}
-span{
-    font-size: x-small;
-    
 }
